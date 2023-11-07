@@ -10,9 +10,9 @@ class OpenAIGpt:
 
     def run(self, args):
         question = input("Question! : ")
-        openai.api_key = os.getenv("OPENAI_API_KEY")
+        openai.api_key = "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"
         response = openai.Completion.create(
-          model="text-davinci-003",
+          model="ft:davinci-002:somma::8I9Ns6jk",
           # model="<Write your fine-tuning model>",             # 사용할 "fine-tuning model" 작성.
           prompt=f"{question}",
           temperature=args.temperature,

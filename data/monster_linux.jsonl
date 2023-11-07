@@ -1,0 +1,145 @@
+monster_linux_schema = {
+  "type" : "monster linux event",
+  "description": "Somma Monster Event - Linux",
+  "parameters": {
+      "type": "Windows",
+      "properties": {
+        "10750": {
+          "event_id": 10750,
+          "event_description": "시스템 시작(Reboot)"
+        },
+        "10752": {
+          "event_id": 10752,
+          "event_description": "시스템 종료(Shutdown)"
+        },
+        "10753": {
+          "event_id": 10753,
+          "event_description": "응용 프로그램 설치"
+        },
+        "10754": {
+          "event_id": 10754,
+          "event_description": "응용 프로그램 업데이트"
+        },
+        "10760": {
+          "event_id": 10760,
+          "event_description": "로그온 성공"
+        },
+        "10761": {
+          "event_id": 10761,
+          "event_description": "로그온 실패"
+        },
+        "10762": {
+          "event_id": 10762,
+          "event_description": "로그 오프"
+        },
+        "10765": {
+          "event_id": 10765,
+          "event_description": "계정 추가"
+        },
+        "10766": {
+          "event_id": 10766,
+          "event_description": "계정 수정"
+        },
+        "10767": {
+          "event_id": 10767,
+          "event_description": "계정 삭제"
+        },
+        "10768": {
+          "event_id": 10768,
+          "event_description": "그룹 추가"
+        },
+        "10769": {
+          "event_id": 10769,
+          "event_description": "그룹 수정"
+        },
+        "10770": {
+          "event_id": 10770,
+          "event_description": "그룹 삭제"
+        },
+        "10757": {
+          "event_id": 10757,
+          "event_description": "crontab remove"
+        },
+        "10758": {
+          "event_id": 10758,
+          "event_description": "crontab execute"
+        },
+        "10755": {
+          "event_id": 10755,
+          "event_description": "현재 로그인 한 사용자"
+        },
+        "1506": {
+          "event_id": 1506,
+          "event_description": "remote thread created"
+        },
+        "2500": {
+          "event_id": 2500,
+          "event_description": "file I/O"
+        },
+        "2501": {
+          "event_id": 2501,
+          "event_description": "file renamed"
+        },
+        "2502": {
+          "event_id": 2502,
+          "event_description": "namedpipe create"
+        },
+        "2503": {
+          "event_id": 2503,
+          "event_description": "namedpipe connect"
+        },
+        "4500": {
+          "event_id": 4500,
+          "event_description": "registry Create Key"
+        },
+        "4501": {
+          "event_id": 4501,
+          "event_description": "registry value written"
+        },
+        "4502": {
+          "event_id": 4502,
+          "event_description": "registry value deleted"
+        },
+        "4503": {
+          "event_id": 4503,
+          "event_description": "registry key renamed"
+        },
+        "3500": {
+          "event_id": 3500,
+          "event_description": "tcp connect"
+        },
+        "3501": {
+          "event_id": 3501,
+          "event_description": "tcp accept"
+        },
+        "3502": {
+          "event_id": 3502,
+          "event_description": "udp sendto"
+        },
+        "3503": {
+          "event_id": 3503,
+          "event_description": "udp recvfrom"
+        },
+        "3504": {
+          "event_id": 3504,
+          "event_description": "DNS reply"
+        },
+        "5500": {
+          "event_id": 5500,
+          "event_description": "WMI New"
+        },
+        "6500": {
+          "event_id": 6500,
+          "event_description": "PNP"
+        },
+        "7500": {
+          "event_id": 7500,
+          "event_description": "Disk write (MBR/VBR)"
+        },
+        "8500": {
+          "event_id": 8500,
+          "event_description": "update host info"
+        }
+      }
+  }
+}
